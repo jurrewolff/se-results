@@ -1,0 +1,2793 @@
+[
+  [
+    {
+      "name": "GoodbyeWorld",
+      "extends": [],
+      "implements": [],
+      "body": [
+        {
+          "return": "void",
+          "name": "testing123321",
+          "parameters": [],
+          "exceptions": [],
+          "impl": {
+            "statements": [
+              {
+                "declaration": {
+                  "type": "int",
+                  "fragments": [
+                    {
+                      "name": "y",
+                      "extraDimensions": 0,
+                      "initializer": {
+                        "numberValue": "10",
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test_copy.java",
+                          "offset": 99,
+                          "length": 2,
+                          "begin": [
+                            5,
+                            14
+                          ],
+                          "end": [
+                            5,
+                            16
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test_copy.java",
+                        "offset": 95,
+                        "length": 6,
+                        "begin": [
+                          5,
+                          10
+                        ],
+                        "end": [
+                          5,
+                          16
+                        ]
+                      },
+                      "decl": {
+                        "scheme": "java+variable",
+                        "authority": "",
+                        "path": "/GoodbyeWorld/testing123321()/y"
+                      },
+                      "typ": "int"
+                    }
+                  ]
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 91,
+                  "length": 11,
+                  "begin": [
+                    5,
+                    6
+                  ],
+                  "end": [
+                    5,
+                    17
+                  ]
+                }
+              },
+              {
+                "declaration": {
+                  "type": "int",
+                  "fragments": [
+                    {
+                      "name": "z",
+                      "extraDimensions": 0,
+                      "initializer": {
+                        "numberValue": "8",
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test_copy.java",
+                          "offset": 117,
+                          "length": 1,
+                          "begin": [
+                            6,
+                            14
+                          ],
+                          "end": [
+                            6,
+                            15
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test_copy.java",
+                        "offset": 113,
+                        "length": 5,
+                        "begin": [
+                          6,
+                          10
+                        ],
+                        "end": [
+                          6,
+                          15
+                        ]
+                      },
+                      "decl": {
+                        "scheme": "java+variable",
+                        "authority": "",
+                        "path": "/GoodbyeWorld/testing123321()/z"
+                      },
+                      "typ": "int"
+                    }
+                  ]
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 109,
+                  "length": 10,
+                  "begin": [
+                    6,
+                    6
+                  ],
+                  "end": [
+                    6,
+                    16
+                  ]
+                }
+              },
+              {
+                "declaration": {
+                  "type": "int",
+                  "fragments": [
+                    {
+                      "name": "x",
+                      "extraDimensions": 0,
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test_copy.java",
+                        "offset": 130,
+                        "length": 1,
+                        "begin": [
+                          7,
+                          10
+                        ],
+                        "end": [
+                          7,
+                          11
+                        ]
+                      },
+                      "decl": {
+                        "scheme": "java+variable",
+                        "authority": "",
+                        "path": "/GoodbyeWorld/testing123321()/x"
+                      },
+                      "typ": "int"
+                    }
+                  ]
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 126,
+                  "length": 6,
+                  "begin": [
+                    7,
+                    6
+                  ],
+                  "end": [
+                    7,
+                    12
+                  ]
+                }
+              },
+              {
+                "stmt": {
+                  "lhs": {
+                    "name": "x",
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test_copy.java",
+                      "offset": 140,
+                      "length": 1,
+                      "begin": [
+                        9,
+                        6
+                      ],
+                      "end": [
+                        9,
+                        7
+                      ]
+                    },
+                    "decl": {
+                      "scheme": "java+variable",
+                      "authority": "",
+                      "path": "/GoodbyeWorld/testing123321()/x"
+                    },
+                    "typ": "int"
+                  },
+                  "operator": "=",
+                  "rhs": {
+                    "lhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 145,
+                            "length": 1,
+                            "begin": [
+                              9,
+                              11
+                            ],
+                            "end": [
+                              9,
+                              12
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 149,
+                            "length": 1,
+                            "begin": [
+                              9,
+                              15
+                            ],
+                            "end": [
+                              9,
+                              16
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test_copy.java",
+                          "offset": 145,
+                          "length": 5,
+                          "begin": [
+                            9,
+                            11
+                          ],
+                          "end": [
+                            9,
+                            16
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test_copy.java",
+                        "offset": 144,
+                        "length": 7,
+                        "begin": [
+                          9,
+                          10
+                        ],
+                        "end": [
+                          9,
+                          17
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "operator": "+",
+                    "rhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 155,
+                            "length": 1,
+                            "begin": [
+                              9,
+                              21
+                            ],
+                            "end": [
+                              9,
+                              22
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 159,
+                            "length": 1,
+                            "begin": [
+                              9,
+                              25
+                            ],
+                            "end": [
+                              9,
+                              26
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test_copy.java",
+                          "offset": 155,
+                          "length": 5,
+                          "begin": [
+                            9,
+                            21
+                          ],
+                          "end": [
+                            9,
+                            26
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test_copy.java",
+                        "offset": 154,
+                        "length": 7,
+                        "begin": [
+                          9,
+                          20
+                        ],
+                        "end": [
+                          9,
+                          27
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test_copy.java",
+                      "offset": 144,
+                      "length": 17,
+                      "begin": [
+                        9,
+                        10
+                      ],
+                      "end": [
+                        9,
+                        27
+                      ]
+                    },
+                    "typ": "int"
+                  },
+                  "src": {
+                    "scheme": "java+compilationUnit",
+                    "authority": "",
+                    "path": "/src/main/test_copy.java",
+                    "offset": 140,
+                    "length": 21,
+                    "begin": [
+                      9,
+                      6
+                    ],
+                    "end": [
+                      9,
+                      27
+                    ]
+                  },
+                  "typ": "int"
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 140,
+                  "length": 22,
+                  "begin": [
+                    9,
+                    6
+                  ],
+                  "end": [
+                    9,
+                    28
+                  ]
+                }
+              },
+              {
+                "stmt": {
+                  "lhs": {
+                    "name": "x",
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test_copy.java",
+                      "offset": 169,
+                      "length": 1,
+                      "begin": [
+                        10,
+                        6
+                      ],
+                      "end": [
+                        10,
+                        7
+                      ]
+                    },
+                    "decl": {
+                      "scheme": "java+variable",
+                      "authority": "",
+                      "path": "/GoodbyeWorld/testing123321()/x"
+                    },
+                    "typ": "int"
+                  },
+                  "operator": "=",
+                  "rhs": {
+                    "lhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 174,
+                            "length": 1,
+                            "begin": [
+                              10,
+                              11
+                            ],
+                            "end": [
+                              10,
+                              12
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 178,
+                            "length": 1,
+                            "begin": [
+                              10,
+                              15
+                            ],
+                            "end": [
+                              10,
+                              16
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test_copy.java",
+                          "offset": 174,
+                          "length": 5,
+                          "begin": [
+                            10,
+                            11
+                          ],
+                          "end": [
+                            10,
+                            16
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test_copy.java",
+                        "offset": 173,
+                        "length": 7,
+                        "begin": [
+                          10,
+                          10
+                        ],
+                        "end": [
+                          10,
+                          17
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "operator": "+",
+                    "rhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 184,
+                            "length": 1,
+                            "begin": [
+                              10,
+                              21
+                            ],
+                            "end": [
+                              10,
+                              22
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 188,
+                            "length": 1,
+                            "begin": [
+                              10,
+                              25
+                            ],
+                            "end": [
+                              10,
+                              26
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test_copy.java",
+                          "offset": 184,
+                          "length": 5,
+                          "begin": [
+                            10,
+                            21
+                          ],
+                          "end": [
+                            10,
+                            26
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test_copy.java",
+                        "offset": 183,
+                        "length": 7,
+                        "begin": [
+                          10,
+                          20
+                        ],
+                        "end": [
+                          10,
+                          27
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test_copy.java",
+                      "offset": 173,
+                      "length": 17,
+                      "begin": [
+                        10,
+                        10
+                      ],
+                      "end": [
+                        10,
+                        27
+                      ]
+                    },
+                    "typ": "int"
+                  },
+                  "src": {
+                    "scheme": "java+compilationUnit",
+                    "authority": "",
+                    "path": "/src/main/test_copy.java",
+                    "offset": 169,
+                    "length": 21,
+                    "begin": [
+                      10,
+                      6
+                    ],
+                    "end": [
+                      10,
+                      27
+                    ]
+                  },
+                  "typ": "int"
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 169,
+                  "length": 22,
+                  "begin": [
+                    10,
+                    6
+                  ],
+                  "end": [
+                    10,
+                    28
+                  ]
+                }
+              },
+              {
+                "stmt": {
+                  "lhs": {
+                    "name": "x",
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test_copy.java",
+                      "offset": 198,
+                      "length": 1,
+                      "begin": [
+                        11,
+                        6
+                      ],
+                      "end": [
+                        11,
+                        7
+                      ]
+                    },
+                    "decl": {
+                      "scheme": "java+variable",
+                      "authority": "",
+                      "path": "/GoodbyeWorld/testing123321()/x"
+                    },
+                    "typ": "int"
+                  },
+                  "operator": "=",
+                  "rhs": {
+                    "lhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 203,
+                            "length": 1,
+                            "begin": [
+                              11,
+                              11
+                            ],
+                            "end": [
+                              11,
+                              12
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 207,
+                            "length": 1,
+                            "begin": [
+                              11,
+                              15
+                            ],
+                            "end": [
+                              11,
+                              16
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test_copy.java",
+                          "offset": 203,
+                          "length": 5,
+                          "begin": [
+                            11,
+                            11
+                          ],
+                          "end": [
+                            11,
+                            16
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test_copy.java",
+                        "offset": 202,
+                        "length": 7,
+                        "begin": [
+                          11,
+                          10
+                        ],
+                        "end": [
+                          11,
+                          17
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "operator": "+",
+                    "rhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 213,
+                            "length": 1,
+                            "begin": [
+                              11,
+                              21
+                            ],
+                            "end": [
+                              11,
+                              22
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 217,
+                            "length": 1,
+                            "begin": [
+                              11,
+                              25
+                            ],
+                            "end": [
+                              11,
+                              26
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test_copy.java",
+                          "offset": 213,
+                          "length": 5,
+                          "begin": [
+                            11,
+                            21
+                          ],
+                          "end": [
+                            11,
+                            26
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test_copy.java",
+                        "offset": 212,
+                        "length": 7,
+                        "begin": [
+                          11,
+                          20
+                        ],
+                        "end": [
+                          11,
+                          27
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test_copy.java",
+                      "offset": 202,
+                      "length": 17,
+                      "begin": [
+                        11,
+                        10
+                      ],
+                      "end": [
+                        11,
+                        27
+                      ]
+                    },
+                    "typ": "int"
+                  },
+                  "src": {
+                    "scheme": "java+compilationUnit",
+                    "authority": "",
+                    "path": "/src/main/test_copy.java",
+                    "offset": 198,
+                    "length": 21,
+                    "begin": [
+                      11,
+                      6
+                    ],
+                    "end": [
+                      11,
+                      27
+                    ]
+                  },
+                  "typ": "int"
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 198,
+                  "length": 22,
+                  "begin": [
+                    11,
+                    6
+                  ],
+                  "end": [
+                    11,
+                    28
+                  ]
+                }
+              },
+              {
+                "stmt": {
+                  "lhs": {
+                    "name": "x",
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test_copy.java",
+                      "offset": 227,
+                      "length": 1,
+                      "begin": [
+                        12,
+                        6
+                      ],
+                      "end": [
+                        12,
+                        7
+                      ]
+                    },
+                    "decl": {
+                      "scheme": "java+variable",
+                      "authority": "",
+                      "path": "/GoodbyeWorld/testing123321()/x"
+                    },
+                    "typ": "int"
+                  },
+                  "operator": "=",
+                  "rhs": {
+                    "lhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 232,
+                            "length": 1,
+                            "begin": [
+                              12,
+                              11
+                            ],
+                            "end": [
+                              12,
+                              12
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 236,
+                            "length": 1,
+                            "begin": [
+                              12,
+                              15
+                            ],
+                            "end": [
+                              12,
+                              16
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test_copy.java",
+                          "offset": 232,
+                          "length": 5,
+                          "begin": [
+                            12,
+                            11
+                          ],
+                          "end": [
+                            12,
+                            16
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test_copy.java",
+                        "offset": 231,
+                        "length": 7,
+                        "begin": [
+                          12,
+                          10
+                        ],
+                        "end": [
+                          12,
+                          17
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "operator": "+",
+                    "rhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 242,
+                            "length": 1,
+                            "begin": [
+                              12,
+                              21
+                            ],
+                            "end": [
+                              12,
+                              22
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test_copy.java",
+                            "offset": 246,
+                            "length": 1,
+                            "begin": [
+                              12,
+                              25
+                            ],
+                            "end": [
+                              12,
+                              26
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/GoodbyeWorld/testing123321()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test_copy.java",
+                          "offset": 242,
+                          "length": 5,
+                          "begin": [
+                            12,
+                            21
+                          ],
+                          "end": [
+                            12,
+                            26
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test_copy.java",
+                        "offset": 241,
+                        "length": 7,
+                        "begin": [
+                          12,
+                          20
+                        ],
+                        "end": [
+                          12,
+                          27
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test_copy.java",
+                      "offset": 231,
+                      "length": 17,
+                      "begin": [
+                        12,
+                        10
+                      ],
+                      "end": [
+                        12,
+                        27
+                      ]
+                    },
+                    "typ": "int"
+                  },
+                  "src": {
+                    "scheme": "java+compilationUnit",
+                    "authority": "",
+                    "path": "/src/main/test_copy.java",
+                    "offset": 227,
+                    "length": 21,
+                    "begin": [
+                      12,
+                      6
+                    ],
+                    "end": [
+                      12,
+                      27
+                    ]
+                  },
+                  "typ": "int"
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 227,
+                  "length": 22,
+                  "begin": [
+                    12,
+                    6
+                  ],
+                  "end": [
+                    12,
+                    28
+                  ]
+                }
+              }
+            ],
+            "src": {
+              "scheme": "java+compilationUnit",
+              "authority": "",
+              "path": "/src/main/test_copy.java",
+              "offset": 83,
+              "length": 172,
+              "begin": [
+                4,
+                39
+              ],
+              "end": [
+                13,
+                5
+              ]
+            }
+          },
+          "modifiers": [
+            "public",
+            "static"
+          ],
+          "src": {
+            "scheme": "java+compilationUnit",
+            "authority": "",
+            "path": "/src/main/test_copy.java",
+            "offset": 48,
+            "length": 207,
+            "begin": [
+              4,
+              4
+            ],
+            "end": [
+              13,
+              5
+            ]
+          },
+          "decl": {
+            "scheme": "java+method",
+            "authority": "",
+            "path": "/GoodbyeWorld/testing123321()"
+          },
+          "typ": {
+            "decl": {
+              "scheme": "java+method",
+              "authority": "",
+              "path": "/GoodbyeWorld/testing123321()"
+            },
+            "typeParameters": [],
+            "returnType": "void",
+            "parameters": []
+          }
+        }
+      ],
+      "src": {
+        "scheme": "java+compilationUnit",
+        "authority": "",
+        "path": "/src/main/test_copy.java",
+        "offset": 23,
+        "length": 234,
+        "begin": [
+          3,
+          0
+        ],
+        "end": [
+          14,
+          1
+        ]
+      },
+      "decl": {
+        "scheme": "java+class",
+        "authority": "",
+        "path": "/GoodbyeWorld"
+      },
+      "typ": {
+        "decl": {
+          "scheme": "java+class",
+          "authority": "",
+          "path": "/GoodbyeWorld"
+        },
+        "typeParameters": []
+      }
+    },
+    {
+      "name": "HelloWorld",
+      "extends": [],
+      "implements": [],
+      "body": [
+        {
+          "return": "void",
+          "name": "test",
+          "parameters": [],
+          "exceptions": [],
+          "impl": {
+            "statements": [
+              {
+                "declaration": {
+                  "type": "int",
+                  "fragments": [
+                    {
+                      "name": "y",
+                      "extraDimensions": 0,
+                      "initializer": {
+                        "numberValue": "10",
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test.java",
+                          "offset": 88,
+                          "length": 2,
+                          "begin": [
+                            5,
+                            14
+                          ],
+                          "end": [
+                            5,
+                            16
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test.java",
+                        "offset": 84,
+                        "length": 6,
+                        "begin": [
+                          5,
+                          10
+                        ],
+                        "end": [
+                          5,
+                          16
+                        ]
+                      },
+                      "decl": {
+                        "scheme": "java+variable",
+                        "authority": "",
+                        "path": "/HelloWorld/test()/y"
+                      },
+                      "typ": "int"
+                    }
+                  ]
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test.java",
+                  "offset": 80,
+                  "length": 11,
+                  "begin": [
+                    5,
+                    6
+                  ],
+                  "end": [
+                    5,
+                    17
+                  ]
+                }
+              },
+              {
+                "declaration": {
+                  "type": "int",
+                  "fragments": [
+                    {
+                      "name": "z",
+                      "extraDimensions": 0,
+                      "initializer": {
+                        "numberValue": "8",
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test.java",
+                          "offset": 106,
+                          "length": 1,
+                          "begin": [
+                            6,
+                            14
+                          ],
+                          "end": [
+                            6,
+                            15
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test.java",
+                        "offset": 102,
+                        "length": 5,
+                        "begin": [
+                          6,
+                          10
+                        ],
+                        "end": [
+                          6,
+                          15
+                        ]
+                      },
+                      "decl": {
+                        "scheme": "java+variable",
+                        "authority": "",
+                        "path": "/HelloWorld/test()/z"
+                      },
+                      "typ": "int"
+                    }
+                  ]
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test.java",
+                  "offset": 98,
+                  "length": 10,
+                  "begin": [
+                    6,
+                    6
+                  ],
+                  "end": [
+                    6,
+                    16
+                  ]
+                }
+              },
+              {
+                "declaration": {
+                  "type": "int",
+                  "fragments": [
+                    {
+                      "name": "x",
+                      "extraDimensions": 0,
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test.java",
+                        "offset": 119,
+                        "length": 1,
+                        "begin": [
+                          7,
+                          10
+                        ],
+                        "end": [
+                          7,
+                          11
+                        ]
+                      },
+                      "decl": {
+                        "scheme": "java+variable",
+                        "authority": "",
+                        "path": "/HelloWorld/test()/x"
+                      },
+                      "typ": "int"
+                    }
+                  ]
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test.java",
+                  "offset": 115,
+                  "length": 6,
+                  "begin": [
+                    7,
+                    6
+                  ],
+                  "end": [
+                    7,
+                    12
+                  ]
+                }
+              },
+              {
+                "stmt": {
+                  "lhs": {
+                    "name": "x",
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test.java",
+                      "offset": 129,
+                      "length": 1,
+                      "begin": [
+                        9,
+                        6
+                      ],
+                      "end": [
+                        9,
+                        7
+                      ]
+                    },
+                    "decl": {
+                      "scheme": "java+variable",
+                      "authority": "",
+                      "path": "/HelloWorld/test()/x"
+                    },
+                    "typ": "int"
+                  },
+                  "operator": "=",
+                  "rhs": {
+                    "lhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 134,
+                            "length": 1,
+                            "begin": [
+                              9,
+                              11
+                            ],
+                            "end": [
+                              9,
+                              12
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 138,
+                            "length": 1,
+                            "begin": [
+                              9,
+                              15
+                            ],
+                            "end": [
+                              9,
+                              16
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test.java",
+                          "offset": 134,
+                          "length": 5,
+                          "begin": [
+                            9,
+                            11
+                          ],
+                          "end": [
+                            9,
+                            16
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test.java",
+                        "offset": 133,
+                        "length": 7,
+                        "begin": [
+                          9,
+                          10
+                        ],
+                        "end": [
+                          9,
+                          17
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "operator": "+",
+                    "rhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 144,
+                            "length": 1,
+                            "begin": [
+                              9,
+                              21
+                            ],
+                            "end": [
+                              9,
+                              22
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 148,
+                            "length": 1,
+                            "begin": [
+                              9,
+                              25
+                            ],
+                            "end": [
+                              9,
+                              26
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test.java",
+                          "offset": 144,
+                          "length": 5,
+                          "begin": [
+                            9,
+                            21
+                          ],
+                          "end": [
+                            9,
+                            26
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test.java",
+                        "offset": 143,
+                        "length": 7,
+                        "begin": [
+                          9,
+                          20
+                        ],
+                        "end": [
+                          9,
+                          27
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test.java",
+                      "offset": 133,
+                      "length": 17,
+                      "begin": [
+                        9,
+                        10
+                      ],
+                      "end": [
+                        9,
+                        27
+                      ]
+                    },
+                    "typ": "int"
+                  },
+                  "src": {
+                    "scheme": "java+compilationUnit",
+                    "authority": "",
+                    "path": "/src/main/test.java",
+                    "offset": 129,
+                    "length": 21,
+                    "begin": [
+                      9,
+                      6
+                    ],
+                    "end": [
+                      9,
+                      27
+                    ]
+                  },
+                  "typ": "int"
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test.java",
+                  "offset": 129,
+                  "length": 22,
+                  "begin": [
+                    9,
+                    6
+                  ],
+                  "end": [
+                    9,
+                    28
+                  ]
+                }
+              },
+              {
+                "stmt": {
+                  "lhs": {
+                    "name": "x",
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test.java",
+                      "offset": 158,
+                      "length": 1,
+                      "begin": [
+                        10,
+                        6
+                      ],
+                      "end": [
+                        10,
+                        7
+                      ]
+                    },
+                    "decl": {
+                      "scheme": "java+variable",
+                      "authority": "",
+                      "path": "/HelloWorld/test()/x"
+                    },
+                    "typ": "int"
+                  },
+                  "operator": "=",
+                  "rhs": {
+                    "lhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 163,
+                            "length": 1,
+                            "begin": [
+                              10,
+                              11
+                            ],
+                            "end": [
+                              10,
+                              12
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 167,
+                            "length": 1,
+                            "begin": [
+                              10,
+                              15
+                            ],
+                            "end": [
+                              10,
+                              16
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test.java",
+                          "offset": 163,
+                          "length": 5,
+                          "begin": [
+                            10,
+                            11
+                          ],
+                          "end": [
+                            10,
+                            16
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test.java",
+                        "offset": 162,
+                        "length": 7,
+                        "begin": [
+                          10,
+                          10
+                        ],
+                        "end": [
+                          10,
+                          17
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "operator": "+",
+                    "rhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 173,
+                            "length": 1,
+                            "begin": [
+                              10,
+                              21
+                            ],
+                            "end": [
+                              10,
+                              22
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 177,
+                            "length": 1,
+                            "begin": [
+                              10,
+                              25
+                            ],
+                            "end": [
+                              10,
+                              26
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test.java",
+                          "offset": 173,
+                          "length": 5,
+                          "begin": [
+                            10,
+                            21
+                          ],
+                          "end": [
+                            10,
+                            26
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test.java",
+                        "offset": 172,
+                        "length": 7,
+                        "begin": [
+                          10,
+                          20
+                        ],
+                        "end": [
+                          10,
+                          27
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test.java",
+                      "offset": 162,
+                      "length": 17,
+                      "begin": [
+                        10,
+                        10
+                      ],
+                      "end": [
+                        10,
+                        27
+                      ]
+                    },
+                    "typ": "int"
+                  },
+                  "src": {
+                    "scheme": "java+compilationUnit",
+                    "authority": "",
+                    "path": "/src/main/test.java",
+                    "offset": 158,
+                    "length": 21,
+                    "begin": [
+                      10,
+                      6
+                    ],
+                    "end": [
+                      10,
+                      27
+                    ]
+                  },
+                  "typ": "int"
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test.java",
+                  "offset": 158,
+                  "length": 22,
+                  "begin": [
+                    10,
+                    6
+                  ],
+                  "end": [
+                    10,
+                    28
+                  ]
+                }
+              },
+              {
+                "stmt": {
+                  "lhs": {
+                    "name": "x",
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test.java",
+                      "offset": 187,
+                      "length": 1,
+                      "begin": [
+                        11,
+                        6
+                      ],
+                      "end": [
+                        11,
+                        7
+                      ]
+                    },
+                    "decl": {
+                      "scheme": "java+variable",
+                      "authority": "",
+                      "path": "/HelloWorld/test()/x"
+                    },
+                    "typ": "int"
+                  },
+                  "operator": "=",
+                  "rhs": {
+                    "lhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 192,
+                            "length": 1,
+                            "begin": [
+                              11,
+                              11
+                            ],
+                            "end": [
+                              11,
+                              12
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 196,
+                            "length": 1,
+                            "begin": [
+                              11,
+                              15
+                            ],
+                            "end": [
+                              11,
+                              16
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test.java",
+                          "offset": 192,
+                          "length": 5,
+                          "begin": [
+                            11,
+                            11
+                          ],
+                          "end": [
+                            11,
+                            16
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test.java",
+                        "offset": 191,
+                        "length": 7,
+                        "begin": [
+                          11,
+                          10
+                        ],
+                        "end": [
+                          11,
+                          17
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "operator": "+",
+                    "rhs": {
+                      "expression": {
+                        "lhs": {
+                          "name": "y",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 202,
+                            "length": 1,
+                            "begin": [
+                              11,
+                              21
+                            ],
+                            "end": [
+                              11,
+                              22
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/y"
+                          },
+                          "typ": "int"
+                        },
+                        "operator": "*",
+                        "rhs": {
+                          "name": "z",
+                          "src": {
+                            "scheme": "java+compilationUnit",
+                            "authority": "",
+                            "path": "/src/main/test.java",
+                            "offset": 206,
+                            "length": 1,
+                            "begin": [
+                              11,
+                              25
+                            ],
+                            "end": [
+                              11,
+                              26
+                            ]
+                          },
+                          "decl": {
+                            "scheme": "java+variable",
+                            "authority": "",
+                            "path": "/HelloWorld/test()/z"
+                          },
+                          "typ": "int"
+                        },
+                        "src": {
+                          "scheme": "java+compilationUnit",
+                          "authority": "",
+                          "path": "/src/main/test.java",
+                          "offset": 202,
+                          "length": 5,
+                          "begin": [
+                            11,
+                            21
+                          ],
+                          "end": [
+                            11,
+                            26
+                          ]
+                        },
+                        "typ": "int"
+                      },
+                      "src": {
+                        "scheme": "java+compilationUnit",
+                        "authority": "",
+                        "path": "/src/main/test.java",
+                        "offset": 201,
+                        "length": 7,
+                        "begin": [
+                          11,
+                          20
+                        ],
+                        "end": [
+                          11,
+                          27
+                        ]
+                      },
+                      "typ": "int"
+                    },
+                    "src": {
+                      "scheme": "java+compilationUnit",
+                      "authority": "",
+                      "path": "/src/main/test.java",
+                      "offset": 191,
+                      "length": 17,
+                      "begin": [
+                        11,
+                        10
+                      ],
+                      "end": [
+                        11,
+                        27
+                      ]
+                    },
+                    "typ": "int"
+                  },
+                  "src": {
+                    "scheme": "java+compilationUnit",
+                    "authority": "",
+                    "path": "/src/main/test.java",
+                    "offset": 187,
+                    "length": 21,
+                    "begin": [
+                      11,
+                      6
+                    ],
+                    "end": [
+                      11,
+                      27
+                    ]
+                  },
+                  "typ": "int"
+                },
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test.java",
+                  "offset": 187,
+                  "length": 22,
+                  "begin": [
+                    11,
+                    6
+                  ],
+                  "end": [
+                    11,
+                    28
+                  ]
+                }
+              }
+            ],
+            "src": {
+              "scheme": "java+compilationUnit",
+              "authority": "",
+              "path": "/src/main/test.java",
+              "offset": 72,
+              "length": 143,
+              "begin": [
+                4,
+                30
+              ],
+              "end": [
+                12,
+                5
+              ]
+            }
+          },
+          "modifiers": [
+            "public",
+            "static"
+          ],
+          "src": {
+            "scheme": "java+compilationUnit",
+            "authority": "",
+            "path": "/src/main/test.java",
+            "offset": 46,
+            "length": 169,
+            "begin": [
+              4,
+              4
+            ],
+            "end": [
+              12,
+              5
+            ]
+          },
+          "decl": {
+            "scheme": "java+method",
+            "authority": "",
+            "path": "/HelloWorld/test()"
+          },
+          "typ": {
+            "decl": {
+              "scheme": "java+method",
+              "authority": "",
+              "path": "/HelloWorld/test()"
+            },
+            "typeParameters": [],
+            "returnType": "void",
+            "parameters": []
+          }
+        }
+      ],
+      "src": {
+        "scheme": "java+compilationUnit",
+        "authority": "",
+        "path": "/src/main/test.java",
+        "offset": 23,
+        "length": 194,
+        "begin": [
+          3,
+          0
+        ],
+        "end": [
+          13,
+          1
+        ]
+      },
+      "decl": {
+        "scheme": "java+class",
+        "authority": "",
+        "path": "/HelloWorld"
+      },
+      "typ": {
+        "decl": {
+          "scheme": "java+class",
+          "authority": "",
+          "path": "/HelloWorld"
+        },
+        "typeParameters": []
+      }
+    }
+  ],
+  [
+    {
+      "stmt": {
+        "lhs": {
+          "name": "x",
+          "src": {
+            "scheme": "java+compilationUnit",
+            "authority": "",
+            "path": "/src/main/test_copy.java",
+            "offset": 370,
+            "length": 1,
+            "begin": [
+              19,
+              6
+            ],
+            "end": [
+              19,
+              7
+            ]
+          },
+          "decl": {
+            "scheme": "java+parameter",
+            "authority": "",
+            "path": "/CompletelyDifferentClass/differentMethodName(int,int,int)/scope(x)/scope(0)/x"
+          },
+          "typ": "int"
+        },
+        "operator": "=",
+        "rhs": {
+          "lhs": {
+            "expression": {
+              "lhs": {
+                "name": "y",
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 375,
+                  "length": 1,
+                  "begin": [
+                    19,
+                    11
+                  ],
+                  "end": [
+                    19,
+                    12
+                  ]
+                },
+                "decl": {
+                  "scheme": "java+parameter",
+                  "authority": "",
+                  "path": "/CompletelyDifferentClass/differentMethodName(int,int,int)/scope(y)/scope(0)/y"
+                },
+                "typ": "int"
+              },
+              "operator": "*",
+              "rhs": {
+                "name": "z",
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 379,
+                  "length": 1,
+                  "begin": [
+                    19,
+                    15
+                  ],
+                  "end": [
+                    19,
+                    16
+                  ]
+                },
+                "decl": {
+                  "scheme": "java+parameter",
+                  "authority": "",
+                  "path": "/CompletelyDifferentClass/differentMethodName(int,int,int)/scope(z)/scope(0)/z"
+                },
+                "typ": "int"
+              },
+              "src": {
+                "scheme": "java+compilationUnit",
+                "authority": "",
+                "path": "/src/main/test_copy.java",
+                "offset": 375,
+                "length": 5,
+                "begin": [
+                  19,
+                  11
+                ],
+                "end": [
+                  19,
+                  16
+                ]
+              },
+              "typ": "int"
+            },
+            "src": {
+              "scheme": "java+compilationUnit",
+              "authority": "",
+              "path": "/src/main/test_copy.java",
+              "offset": 374,
+              "length": 7,
+              "begin": [
+                19,
+                10
+              ],
+              "end": [
+                19,
+                17
+              ]
+            },
+            "typ": "int"
+          },
+          "operator": "+",
+          "rhs": {
+            "expression": {
+              "lhs": {
+                "name": "y",
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 385,
+                  "length": 1,
+                  "begin": [
+                    19,
+                    21
+                  ],
+                  "end": [
+                    19,
+                    22
+                  ]
+                },
+                "decl": {
+                  "scheme": "java+parameter",
+                  "authority": "",
+                  "path": "/CompletelyDifferentClass/differentMethodName(int,int,int)/scope(y)/scope(0)/y"
+                },
+                "typ": "int"
+              },
+              "operator": "*",
+              "rhs": {
+                "name": "z",
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 389,
+                  "length": 1,
+                  "begin": [
+                    19,
+                    25
+                  ],
+                  "end": [
+                    19,
+                    26
+                  ]
+                },
+                "decl": {
+                  "scheme": "java+parameter",
+                  "authority": "",
+                  "path": "/CompletelyDifferentClass/differentMethodName(int,int,int)/scope(z)/scope(0)/z"
+                },
+                "typ": "int"
+              },
+              "src": {
+                "scheme": "java+compilationUnit",
+                "authority": "",
+                "path": "/src/main/test_copy.java",
+                "offset": 385,
+                "length": 5,
+                "begin": [
+                  19,
+                  21
+                ],
+                "end": [
+                  19,
+                  26
+                ]
+              },
+              "typ": "int"
+            },
+            "src": {
+              "scheme": "java+compilationUnit",
+              "authority": "",
+              "path": "/src/main/test_copy.java",
+              "offset": 384,
+              "length": 7,
+              "begin": [
+                19,
+                20
+              ],
+              "end": [
+                19,
+                27
+              ]
+            },
+            "typ": "int"
+          },
+          "src": {
+            "scheme": "java+compilationUnit",
+            "authority": "",
+            "path": "/src/main/test_copy.java",
+            "offset": 374,
+            "length": 17,
+            "begin": [
+              19,
+              10
+            ],
+            "end": [
+              19,
+              27
+            ]
+          },
+          "typ": "int"
+        },
+        "src": {
+          "scheme": "java+compilationUnit",
+          "authority": "",
+          "path": "/src/main/test_copy.java",
+          "offset": 370,
+          "length": 21,
+          "begin": [
+            19,
+            6
+          ],
+          "end": [
+            19,
+            27
+          ]
+        },
+        "typ": "int"
+      },
+      "src": {
+        "scheme": "java+compilationUnit",
+        "authority": "",
+        "path": "/src/main/test_copy.java",
+        "offset": 370,
+        "length": 22,
+        "begin": [
+          19,
+          6
+        ],
+        "end": [
+          19,
+          28
+        ]
+      }
+    },
+    {
+      "stmt": {
+        "lhs": {
+          "name": "x",
+          "src": {
+            "scheme": "java+compilationUnit",
+            "authority": "",
+            "path": "/src/main/test_copy.java",
+            "offset": 399,
+            "length": 1,
+            "begin": [
+              20,
+              6
+            ],
+            "end": [
+              20,
+              7
+            ]
+          },
+          "decl": {
+            "scheme": "java+parameter",
+            "authority": "",
+            "path": "/CompletelyDifferentClass/differentMethodName(int,int,int)/scope(x)/scope(0)/x"
+          },
+          "typ": "int"
+        },
+        "operator": "=",
+        "rhs": {
+          "lhs": {
+            "expression": {
+              "lhs": {
+                "name": "y",
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 404,
+                  "length": 1,
+                  "begin": [
+                    20,
+                    11
+                  ],
+                  "end": [
+                    20,
+                    12
+                  ]
+                },
+                "decl": {
+                  "scheme": "java+parameter",
+                  "authority": "",
+                  "path": "/CompletelyDifferentClass/differentMethodName(int,int,int)/scope(y)/scope(0)/y"
+                },
+                "typ": "int"
+              },
+              "operator": "*",
+              "rhs": {
+                "name": "z",
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 408,
+                  "length": 1,
+                  "begin": [
+                    20,
+                    15
+                  ],
+                  "end": [
+                    20,
+                    16
+                  ]
+                },
+                "decl": {
+                  "scheme": "java+parameter",
+                  "authority": "",
+                  "path": "/CompletelyDifferentClass/differentMethodName(int,int,int)/scope(z)/scope(0)/z"
+                },
+                "typ": "int"
+              },
+              "src": {
+                "scheme": "java+compilationUnit",
+                "authority": "",
+                "path": "/src/main/test_copy.java",
+                "offset": 404,
+                "length": 5,
+                "begin": [
+                  20,
+                  11
+                ],
+                "end": [
+                  20,
+                  16
+                ]
+              },
+              "typ": "int"
+            },
+            "src": {
+              "scheme": "java+compilationUnit",
+              "authority": "",
+              "path": "/src/main/test_copy.java",
+              "offset": 403,
+              "length": 7,
+              "begin": [
+                20,
+                10
+              ],
+              "end": [
+                20,
+                17
+              ]
+            },
+            "typ": "int"
+          },
+          "operator": "/",
+          "rhs": {
+            "expression": {
+              "lhs": {
+                "name": "y",
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 414,
+                  "length": 1,
+                  "begin": [
+                    20,
+                    21
+                  ],
+                  "end": [
+                    20,
+                    22
+                  ]
+                },
+                "decl": {
+                  "scheme": "java+parameter",
+                  "authority": "",
+                  "path": "/CompletelyDifferentClass/differentMethodName(int,int,int)/scope(y)/scope(0)/y"
+                },
+                "typ": "int"
+              },
+              "operator": "*",
+              "rhs": {
+                "name": "z",
+                "src": {
+                  "scheme": "java+compilationUnit",
+                  "authority": "",
+                  "path": "/src/main/test_copy.java",
+                  "offset": 418,
+                  "length": 1,
+                  "begin": [
+                    20,
+                    25
+                  ],
+                  "end": [
+                    20,
+                    26
+                  ]
+                },
+                "decl": {
+                  "scheme": "java+parameter",
+                  "authority": "",
+                  "path": "/CompletelyDifferentClass/differentMethodName(int,int,int)/scope(z)/scope(0)/z"
+                },
+                "typ": "int"
+              },
+              "src": {
+                "scheme": "java+compilationUnit",
+                "authority": "",
+                "path": "/src/main/test_copy.java",
+                "offset": 414,
+                "length": 5,
+                "begin": [
+                  20,
+                  21
+                ],
+                "end": [
+                  20,
+                  26
+                ]
+              },
+              "typ": "int"
+            },
+            "src": {
+              "scheme": "java+compilationUnit",
+              "authority": "",
+              "path": "/src/main/test_copy.java",
+              "offset": 413,
+              "length": 7,
+              "begin": [
+                20,
+                20
+              ],
+              "end": [
+                20,
+                27
+              ]
+            },
+            "typ": "int"
+          },
+          "src": {
+            "scheme": "java+compilationUnit",
+            "authority": "",
+            "path": "/src/main/test_copy.java",
+            "offset": 403,
+            "length": 17,
+            "begin": [
+              20,
+              10
+            ],
+            "end": [
+              20,
+              27
+            ]
+          },
+          "typ": "int"
+        },
+        "src": {
+          "scheme": "java+compilationUnit",
+          "authority": "",
+          "path": "/src/main/test_copy.java",
+          "offset": 399,
+          "length": 21,
+          "begin": [
+            20,
+            6
+          ],
+          "end": [
+            20,
+            27
+          ]
+        },
+        "typ": "int"
+      },
+      "src": {
+        "scheme": "java+compilationUnit",
+        "authority": "",
+        "path": "/src/main/test_copy.java",
+        "offset": 399,
+        "length": 22,
+        "begin": [
+          20,
+          6
+        ],
+        "end": [
+          20,
+          28
+        ]
+      }
+    }
+  ]
+]
